@@ -44,3 +44,4 @@ pip install -r requirements.txt
     - -c 生成报告前删除上一次生成的报告
     - -o 指定生成的报告目录
 - allure open `report-path`
+- git remote set-url origin https://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@github.com/caowanliang/web_ui.git

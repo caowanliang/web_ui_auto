@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# @Time  : 2022/5/27 21:07
+# @Time  : 2022/5/30 10:58
 # @Author: william.cao
-# @File  : test_node_management.py
+# @File  : test_node_management_page.py
 
 import pytest
 import allure
@@ -13,11 +13,12 @@ from page.web_page import WebPage
 
 @allure.feature("测试节点管理模块")
 @pytest.mark.usefixtures('tian_chi_cloud_login', 'drivers')
-class TestNodeManagement:
+class TestTianChiNodeManagement:
     def setup_class(self):
+        # 获取页面元素地址
         self.operations_center_element = Element('operations_center')
 
-    @allure.feature("新增节点")
+    @allure.story("新增节点")
     def test_new_add_node(self, drivers):
         self.web_page = WebPage(drivers)
         self.web_page.is_click(locator=self.operations_center_element['运营中心'])
@@ -26,5 +27,5 @@ class TestNodeManagement:
 
 if __name__ == '__main__':
     pass
-    # pytest /Users/caowanliang/cloud_line_auto_ui/TestCase/test_node_management.py --alluredir=./report/result --clean-alluredir
+    # pytest /Users/caowanliang/cloud_line_auto_ui/TestCase/test_node_management_page.py --alluredir=./report/result --clean-alluredir
     # allure serve ./report/result

@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon May 30 18:56:47 CST 2022","Mon May 30 18:56:48 CST 2022","1321","TestCase.test_tian_chi_cloud.test_node_management","test_node_management_page","TestTianChiNodeManagement","","","test_new_add_node",""
