@@ -1,0 +1,76 @@
+INFO	2022-09-05 14:00:50,992	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:00:51,040	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:00:51,710	[logger.py:11]	There is no [mac64_m1] chromedriver for browser 104.0.5112 in cache
+INFO	2022-09-05 14:00:51,711	[logger.py:11]	About to download new driver from https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_mac64_m1.zip
+INFO	2022-09-05 14:01:56,634	[logger.py:11]	Driver has been saved in cache [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112]
+INFO	2022-09-05 14:01:58,552	[web_page.py:34]	打开网页：https://10.50.44.99/console/login.html
+INFO	2022-09-05 14:03:34,320	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:03:34,366	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:03:34,674	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:03:36,770	[web_page.py:34]	打开网页：https://10.50.44.99/console/login.html
+INFO	2022-09-05 14:03:46,119	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-05 14:03:46,695	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-05 14:03:47,727	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-05 14:03:49,880	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div[2]/div/ul/li[4]/span')
+INFO	2022-09-05 14:07:39,838	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:07:39,900	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:07:42,574	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:07:59,179	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:07:59,228	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:07:59,508	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:08:01,327	[web_page.py:34]	打开网页：https://10.50.44.99/console/login.html
+INFO	2022-09-05 14:10:06,236	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:10:06,285	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:10:06,573	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:35:17,443	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:35:17,491	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:35:17,794	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:35:31,587	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:35:31,636	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:35:33,106	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:35:53,510	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:35:53,557	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:35:53,851	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:45:08,969	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:45:09,014	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:45:09,392	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:45:19,832	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:45:19,886	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:45:20,166	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:45:30,613	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:45:30,659	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:45:30,963	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:46:25,611	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:46:25,656	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:46:25,954	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:46:34,768	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:46:34,812	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:46:35,102	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:46:48,900	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:46:48,946	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:46:49,239	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:46:58,562	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:46:58,606	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:46:58,953	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:47:54,629	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:47:54,672	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:47:54,965	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:48:04,774	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:48:04,823	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:48:05,129	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:48:59,722	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:48:59,770	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:49:00,051	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 14:50:06,637	[logger.py:11]	====== WebDriver manager ======
+INFO	2022-09-05 14:50:06,686	[logger.py:11]	Get LATEST chromedriver version for google-chrome 104.0.5112
+INFO	2022-09-05 14:50:06,976	[logger.py:11]	Driver [/Users/caowanliang/.wdm/drivers/chromedriver/mac64_m1/104.0.5112/chromedriver] found in cache
+INFO	2022-09-05 15:12:15,276	[web_page.py:34]	打开网页：https://10.50.44.99/console/login.html
+INFO	2022-09-05 15:12:15,844	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-05 15:12:16,407	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-05 15:12:17,439	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-05 15:12:19,212	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div[2]/div/ul/li[4]/span')
+INFO	2022-09-05 15:14:41,304	[web_page.py:34]	打开网页：https://10.50.44.99/console/login.html
+INFO	2022-09-05 15:14:41,883	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-05 15:14:42,447	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-05 15:14:43,480	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-05 15:14:44,815	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div[2]/div/ul/li[4]/span')
