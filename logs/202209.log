@@ -38,3 +38,23 @@ INFO	2022-09-05 16:33:56,586	[web_page.py:66]	输入文本：superadmin
 INFO	2022-09-05 16:33:57,146	[web_page.py:66]	输入文本：Admin@123
 INFO	2022-09-05 16:33:58,178	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
 INFO	2022-09-05 16:34:00,256	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div[2]/div/ul/li[4]/span')
+INFO	2022-09-06 16:55:57,559	[web_page.py:34]	打开网页：https://10.50.44.99/console/login.html
+INFO	2022-09-06 16:55:58,122	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-06 16:55:58,692	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-06 16:55:59,724	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-06 16:56:02,204	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div[2]/div/ul/li[4]/span')
+INFO	2022-09-06 16:57:33,311	[web_page.py:34]	打开网页：https://10.50.44.99/console/login.html
+INFO	2022-09-06 16:57:33,891	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-06 16:57:34,451	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-06 16:57:35,479	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-06 16:57:37,306	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div[2]/div/ul/li[4]/span')
+INFO	2022-09-06 16:58:29,213	[web_page.py:34]	打开网页：https://10.50.44.99/console/login.html
+INFO	2022-09-06 16:58:29,805	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-06 16:58:30,373	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-06 16:58:31,407	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-06 16:58:33,310	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div[2]/div/ul/li[4]/span')
+INFO	2022-09-06 16:59:40,309	[web_page.py:34]	打开网页：https://10.50.44.99/console/login.html
+INFO	2022-09-06 16:59:40,888	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-06 16:59:41,459	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-06 16:59:42,499	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-06 16:59:43,899	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div[2]/div/ul/li[4]/span')

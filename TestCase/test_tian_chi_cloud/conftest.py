@@ -4,7 +4,7 @@
 # @Author: william.cao
 # @File  : conftest.py
 
-import base64
+import os
 
 import allure
 import pytest
@@ -13,29 +13,50 @@ from selenium.webdriver.chrome.service import Service
 
 from common.read_config import ini
 from common.read_element import Element
-from config.conf import cm
 from page_object.login_page import LoginPage
 
-driver = None
+_driver = None
+
+@pytest.hookimpl(tryfirst=True, hookwrapper=True)
+def pytest_runtest_makereport(item):
+    """
+    获取每个用例状态的钩子函数
+    :param item:
+    :return:
+    """
+    # 获取钩子方法的调用结果
+    outcome = yield
+    rep = outcome.get_result()
+    # 仅仅获取用例call 执行结果是失败的情况, 不包含 setup/teardown
+    if rep.when == "call" and rep.failed:
+        mode = "a" if os.path.exists("failures") else "w"
+        with open("failures", mode) as f:
+            if "tmpdir" in item.fixturenames:
+                extra = " (%s)" % item.funcargs["tmpdir"]
+            else:
+                extra = ""
+            f.write(rep.nodeid + extra + "\n")
+        # 添加allure报告截图
+        with allure.step('添加失败截图...'):
+            allure.attach(_driver.get_screenshot_as_png(), "失败截图", allure.attachment_type.PNG)
 
 
-@pytest.fixture(scope='class', autouse=True)
+@pytest.fixture(scope='session', autouse=True)
 def drivers(request):
-    global driver
-    if driver is None:
+    global _driver
+    if _driver is None:
         # 取消chrom https安全问题
         options = webdriver.ChromeOptions()
         options.add_argument('--ignore-certificate-errors')
         service = Service(r'/usr/local/bin/chromedriver')
         # 浏览器初始化
-        driver = webdriver.Chrome(service=service, chrome_options=options)
-        driver.maximize_window()
+        _driver = webdriver.Chrome(service=service, chrome_options=options)
+        _driver.maximize_window()
 
     def fn():
-        driver.quit()
-
+        _driver.quit()
     request.addfinalizer(fn)
-    return driver
+    return _driver
 
 
 @pytest.fixture(scope='class', autouse=True)
@@ -47,38 +68,6 @@ def tian_chi_cloud_login(drivers):
     login.input_admin(locator=locator['用户名'], content=ini.admin)
     login.input_password(locator=locator['密码'], content=ini.password)
     login.click_login(locator=locator['登陆'])
-
-
-@pytest.hookimpl(hookwrapper=True, tryfirst=True)
-def pytest_runtest_makereport(item):
-    """
-    当测试失败的时候，自动截图，展示到html报告中
-    :param item:
-    """
-    pytest_html = item.config.pluginmanager.getplugin('html')
-    outcome = yield
-    report = outcome.get_result()
-    report.description = str(item.function.__doc__)
-    extra = getattr(report, 'extra', [])
-
-    if report.when == 'call' or report.when == "setup":
-        xfail = hasattr(report, 'wasxfail')
-        if (report.skipped and xfail) or (report.failed and not xfail):
-            screen_img = _capture_screenshot()
-            if screen_img:
-                html = '<div><img src="data:image/png;base64,%s" alt="screenshot" style="width:1024px;height:768px;" ' \
-                       'onclick="window.open(this.src)" align="right"/></div>' % screen_img
-                extra.append(pytest_html.extras.html(html))
-        report.extra = extra
-
-def _capture_screenshot():
-    """截图保存为base64"""
-    now_time, screen_file = cm.screen_path
-    driver.save_screenshot(screen_file)
-    allure.attach.file(screen_file, "失败截图{}".format(now_time), allure.attachment_type.PNG)
-    with open(screen_file, 'rb') as f:
-        imagebase64 = base64.b64encode(f.read())
-    return imagebase64.decode()
 
 
 if __name__ == '__main__':
