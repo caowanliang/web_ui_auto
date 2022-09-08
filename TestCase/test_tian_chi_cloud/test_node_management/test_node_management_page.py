@@ -27,5 +27,4 @@ class TestTianChiNodeManagement:
 
 if __name__ == '__main__':
     pass
-    # pytest /Users/caowanliang/cloud_line_auto_ui/TestCase/test_node_management_page.py --alluredir=./report/result --clean-alluredir
-    # allure serve ./report/result
+
