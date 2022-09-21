@@ -19,10 +19,12 @@ class TestTianChiNodeManagement:
         self.operations_center_element = Element('operations_center')
 
     @allure.story("新增节点")
-    def test_new_add_node(self, drivers): 
+    def test_config_cloudpass_serverip(self, drivers):
         self.web_page = WebPage(drivers)
-        self.web_page.is_click(locator=self.operations_center_element['运营中心'])
-        assert 1==2
+        self.web_page.is_click(locator=self.operations_center_element['平台运营'])
+        self.web_page.is_click(locator=self.operations_center_element['云通网络'])
+        self.web_page.is_click(locator=self.operations_center_element['云通Server信息_配置'])
+        self.web_page.input_text(locator=self.operations_center_element['云通Server_KeepAlive_IP输入项'], txt='1.1.1.1/24')
 
 
 if __name__ == '__main__':
