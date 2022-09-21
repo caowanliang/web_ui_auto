@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"a100ca44f4c9b445205341146d4a22e0","name":"TestCase.test_tian_chi_cloud.test_node_management","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}}]}
+{"total":1,"items":[{"uid":"a100ca44f4c9b445205341146d4a22e0","name":"TestCase.test_tian_chi_cloud.test_node_management","statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1}}]}
