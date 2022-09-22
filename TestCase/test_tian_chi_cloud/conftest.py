@@ -55,7 +55,7 @@ def drivers(request):
 
         service = Service(r'/usr/local/bin/chromedriver')
         # 浏览器初始化
-        _driver = webdriver.Chrome(service=service, chrome_options=options)
+        _driver = webdriver.Chrome(service=service, options=options)
         _driver.maximize_window()
 
     def fn():
