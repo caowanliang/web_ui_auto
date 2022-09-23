@@ -18,8 +18,7 @@ from page_object.login_page import LoginPage
 @pytest.fixture(scope='session', autouse=True)
 def drivers(request):
     global _driver
-    # if _driver is None:
-        # 取消chrom https安全问题
+    # 取消chrom https安全问题
     options = webdriver.ChromeOptions()
     options.add_argument('--ignore-certificate-errors')
     options.add_argument('--no-sandbox')
