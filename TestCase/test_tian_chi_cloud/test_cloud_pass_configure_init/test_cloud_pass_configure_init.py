@@ -25,6 +25,7 @@ class TestTianChiNodeManagement:
         self.web_page.is_click(locator=self.operations_center_element['云通网络'])
         self.web_page.is_click(locator=self.operations_center_element['云通Server信息_配置'])
         self.web_page.input_text(locator=self.operations_center_element['云通Server_KeepAlive_IP输入项'], txt='1.1.1.1/24')
+        self.web_page.is_click(locator=self.operations_center_element['取消'])
 
 
 if __name__ == '__main__':
