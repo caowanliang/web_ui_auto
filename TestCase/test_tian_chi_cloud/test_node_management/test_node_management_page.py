@@ -11,14 +11,14 @@ from common.read_element import Element
 from page.web_page import WebPage
 
 
-@allure.feature("测试节点管理模块")
+@allure.feature("测试节点管理模块_例子")
 @pytest.mark.usefixtures('tian_chi_cloud_login', 'drivers')
-class TestTianChiNodeManagement:
+class TestTianChiNodeManagementExample:
     def setup_class(self):
         # 获取页面元素地址
         self.operations_center_element = Element('operations_center')
 
-    @allure.story("新增节点")
+    @allure.story("新增节点_例子")
     def test_new_add_node(self, drivers):
         self.web_page = WebPage(drivers)
         self.web_page.is_click(locator=self.operations_center_element['运营中心'])

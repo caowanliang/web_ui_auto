@@ -101,3 +101,11 @@ INFO	2022-09-23 09:20:26,029	[web_page.py:34]	打开网页：https://10.50.44.66
 INFO	2022-09-23 09:20:26,628	[web_page.py:66]	输入文本：superadmin
 INFO	2022-09-23 09:20:27,232	[web_page.py:66]	输入文本：Admin@123
 INFO	2022-09-23 09:20:28,264	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 09:54:02,484	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 09:54:03,068	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 09:54:03,651	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 09:54:04,686	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 09:54:05,903	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 09:54:06,974	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[1]/div[1]/div[8]/div/span')
+INFO	2022-09-23 09:54:08,030	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div[2]/div')
+INFO	2022-09-23 09:54:08,598	[web_page.py:66]	输入文本：1.1.1.1/24
