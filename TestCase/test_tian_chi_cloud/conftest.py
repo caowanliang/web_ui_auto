@@ -5,6 +5,7 @@
 # @File  : conftest.py
 
 import os
+import time
 
 import allure
 import pytest
@@ -21,15 +22,22 @@ def drivers(request):
     # 取消chrom https安全问题
     options = webdriver.ChromeOptions()
     options.add_argument('--ignore-certificate-errors')
-    options.add_argument('--no-sandbox')
-    options.add_argument('headless')  # => 为Chrome配置无头模式
-    options.add_argument('disable-dev-shm-usage')
-    options.add_argument('disable-gpu')
+    # options.add_argument('--no-sandbox')
+    # options.add_argument('headless')  # => 为Chrome配置无头模式
+    # options.add_argument('disable-dev-shm-usage')
+    # options.add_argument('disable-gpu')
 
     service = Service(r'/usr/local/bin/chromedriver')
     # 浏览器初始化
     _driver = webdriver.Chrome(service=service, options=options)
     _driver.maximize_window()
+
+    # # 清除缓存提示框
+    # _driver.get('chrome://settings/clearBrowserData')
+    # # 2S 等待时间
+    # time.sleep(2)
+    # clear_button = _driver.execute_script("return document.querySelector('settings-ui').shadowRoot.querySelector('settings-main').shadowRoot.querySelector('settings-basic-page').shadowRoot.querySelector('settings-section > settings-privacy-page').shadowRoot.querySelector('settings-clear-browsing-data-dialog').shadowRoot.querySelector('#clearBrowsingDataDialog').querySelector('#clearBrowsingDataConfirm')")
+    # clear_button.click()
 
     def fn():
         _driver.quit()
@@ -39,38 +47,30 @@ def drivers(request):
 
 @pytest.fixture(scope='class', autouse=True)
 def tian_chi_cloud_login(drivers):
-    """打开天池云"""
+    """登陆/退登天池云"""
     login = LoginPage(drivers)
     locator = Element('login')
     login.get_url(ini.url)
     login.input_admin(locator=locator['用户名'], content=ini.admin)
     login.input_password(locator=locator['密码'], content=ini.password)
     login.click_login(locator=locator['登陆'])
+    yield
+    login.click_login(locator=locator['用户名片'])
+    login.click_login(locator=locator['注销'])
 
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
-def pytest_runtest_makereport(item):
+def pytest_runtest_makereport():
     """
-    获取每个用例状态的钩子函数
-    :param item:
+    失败截图并附加到allure报告中
     :return:
     """
-    # 获取钩子方法的调用结果
     outcome = yield
     rep = outcome.get_result()
-    # 仅仅获取用例call 执行结果是失败的情况, 不包含 setup/teardown
     if rep.when == "call" and rep.failed:
-        mode = "a" if os.path.exists("failures") else "w"
-        with open("failures", mode) as f:
-            if "tmpdir" in item.fixturenames:
-                extra = " (%s)" % item.funcargs["tmpdir"]
-            else:
-                extra = ""
-            f.write(rep.nodeid + extra + "\n")
-        # 添加allure报告截图
-        with allure.step('添加失败截图...'):
-            allure.attach(_driver.get_screenshot_as_png(), "失败截图", allure.attachment_type.PNG)
+        if hasattr(_driver, "get_screenshot_as_png"):
+            allure.attach(_driver.get_screenshot_as_png(), "异常截图", allure.attachment_type.PNG)
 
 
 if __name__ == '__main__':
-    tian_chi_cloud_login(drivers)
+     tian_chi_cloud_login(drivers)

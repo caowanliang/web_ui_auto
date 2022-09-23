@@ -109,3 +109,103 @@ INFO	2022-09-23 09:54:05,903	[web_page.py:72]	点击元素：('xpath', '/html/bo
 INFO	2022-09-23 09:54:06,974	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[1]/div[1]/div[8]/div/span')
 INFO	2022-09-23 09:54:08,030	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div[2]/div')
 INFO	2022-09-23 09:54:08,598	[web_page.py:66]	输入文本：1.1.1.1/24
+INFO	2022-09-23 16:07:40,594	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:07:41,185	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 16:07:41,775	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 16:07:42,811	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 16:07:43,920	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 16:07:44,992	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[1]/div[1]/div[8]/div/span')
+INFO	2022-09-23 16:07:46,054	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div[2]/div')
+INFO	2022-09-23 16:07:46,614	[web_page.py:66]	输入文本：1.1.1.1/24
+INFO	2022-09-23 16:07:46,908	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:22:09,737	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:22:10,314	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 16:22:10,882	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 16:22:11,919	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 16:22:13,190	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 16:22:14,261	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[1]/div[1]/div[8]/div/span')
+INFO	2022-09-23 16:22:15,313	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div[2]/div')
+INFO	2022-09-23 16:22:15,943	[web_page.py:66]	输入文本：1.1.1.1/24
+INFO	2022-09-23 16:22:16,238	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:25:21,632	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:25:22,208	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 16:25:22,778	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 16:25:23,811	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 16:25:24,972	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 16:25:26,036	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[1]/div[1]/div[8]/div/span')
+INFO	2022-09-23 16:25:27,089	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div[2]/div')
+INFO	2022-09-23 16:25:27,774	[web_page.py:66]	输入文本：1.1.1.1/24
+INFO	2022-09-23 16:25:28,821	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:32:21,751	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:32:22,336	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 16:32:22,904	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 16:32:23,944	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 16:32:25,061	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 16:32:26,128	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[1]/div[1]/div[8]/div/span')
+INFO	2022-09-23 16:32:27,187	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div[2]/div')
+INFO	2022-09-23 16:32:27,816	[web_page.py:66]	输入文本：1.1.1.1/24
+INFO	2022-09-23 16:33:15,694	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:33:16,270	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 16:33:16,838	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 16:33:17,870	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 16:33:19,018	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 16:33:20,079	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[1]/div[1]/div[8]/div/span')
+INFO	2022-09-23 16:33:21,127	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div[2]/div')
+INFO	2022-09-23 16:33:21,749	[web_page.py:66]	输入文本：1.1.1.1/24
+INFO	2022-09-23 16:33:45,834	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:33:46,404	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 16:33:46,968	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 16:33:48,002	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 16:33:49,088	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 16:33:50,131	[web_page.py:72]	点击元素：('xpath', '//*[@id="user-selector"]/div')
+INFO	2022-09-23 16:33:51,167	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div/div[2]/div[1]/ul/li[3]/a')
+INFO	2022-09-23 16:37:38,713	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:37:39,290	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 16:37:39,853	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 16:37:40,891	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 16:37:42,228	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 16:37:43,302	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[1]/div[1]/div[8]/div/span')
+INFO	2022-09-23 16:37:44,355	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div[2]/div')
+INFO	2022-09-23 16:37:44,981	[web_page.py:66]	输入文本：1.1.1.1/24
+INFO	2022-09-23 16:37:46,013	[web_page.py:72]	点击元素：('xpath', '/html/body/div[3]/div/div[2]/div/div[2]/div[2]/button[1]')
+INFO	2022-09-23 16:37:47,053	[web_page.py:72]	点击元素：('xpath', '//*[@id="user-selector"]/div')
+INFO	2022-09-23 16:37:48,090	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div/div[2]/div[1]/ul/li[3]/a')
+INFO	2022-09-23 16:38:05,578	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:38:06,155	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 16:38:06,706	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 16:38:07,743	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 16:38:08,902	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 16:38:09,963	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[1]/div[1]/div[8]/div/span')
+INFO	2022-09-23 16:38:11,012	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div[2]/div')
+INFO	2022-09-23 16:38:11,649	[web_page.py:66]	输入文本：1.1.1.1/24
+INFO	2022-09-23 16:38:12,684	[web_page.py:72]	点击元素：('xpath', '/html/body/div[3]/div/div[2]/div/div[2]/div[2]/button[1]')
+INFO	2022-09-23 16:38:13,728	[web_page.py:72]	点击元素：('xpath', '//*[@id="user-selector"]/div')
+INFO	2022-09-23 16:38:14,763	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div/div[2]/div[1]/ul/li[3]/a')
+INFO	2022-09-23 16:38:15,099	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:38:15,643	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 16:38:16,214	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 16:38:17,246	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 16:38:18,299	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 16:38:19,340	[web_page.py:72]	点击元素：('xpath', '//*[@id="user-selector"]/div')
+INFO	2022-09-23 16:38:20,382	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div/div[2]/div[1]/ul/li[3]/a')
+INFO	2022-09-23 16:46:28,266	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:46:28,850	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 16:46:29,414	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 16:46:30,450	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 16:46:31,901	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 16:46:32,966	[web_page.py:72]	点击元素：('xpath', '//*[@id="user-selector"]/div')
+INFO	2022-09-23 16:46:34,023	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div/div[2]/div[1]/ul/li[3]/a')
+INFO	2022-09-23 16:55:15,841	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 16:55:16,428	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 16:55:16,995	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 16:55:18,030	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 16:55:19,355	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 16:55:20,681	[web_page.py:72]	点击元素：('xpath', '//*[@id="user-selector"]/div')
+INFO	2022-09-23 16:55:21,728	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div/div[2]/div[1]/ul/li[3]/a')
+INFO	2022-09-23 17:07:06,017	[web_page.py:34]	打开网页：https://10.50.44.66/console/login.html
+INFO	2022-09-23 17:07:06,595	[web_page.py:66]	输入文本：superadmin
+INFO	2022-09-23 17:07:07,163	[web_page.py:66]	输入文本：Admin@123
+INFO	2022-09-23 17:07:08,200	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[2]/form/button')
+INFO	2022-09-23 17:07:09,412	[web_page.py:72]	点击元素：('xpath', '/html/body/div[1]/div/div[1]/div/div[1]/div[5]/p')
+INFO	2022-09-23 17:07:10,680	[web_page.py:72]	点击元素：('xpath', '//*[@id="user-selector"]/div')
+INFO	2022-09-23 17:07:11,733	[web_page.py:72]	点击元素：('xpath', '//*[@id="root"]/div/div[1]/div/div[2]/div[1]/ul/li[3]/a')

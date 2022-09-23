@@ -1,1 +1,1 @@
-[{"uid":"4abcd643df93753d","name":"test_new_add_node","time":{"start":1663726157809,"stop":1663726180787,"duration":22978},"status":"broken","severity":"normal"}]
+[{"uid":"fd236da6dc1adfc5","name":"test_new_add_node","time":{"start":1663925426774,"stop":1663925427826,"duration":1052},"status":"failed","severity":"blocker"},{"uid":"a4bb0c2415097063","name":"test_config_cloud_pass_serverip","time":{"start":1663925417241,"stop":1663925422216,"duration":4975},"status":"passed","severity":"normal"}]

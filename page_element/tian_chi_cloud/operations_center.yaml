@@ -3,3 +3,4 @@
 云通网络: 'xpath==/html/body/div[1]/div/div[2]/div[1]/div[1]/div[8]/div/span'
 云通Server信息_配置: 'xpath==/html/body/div[1]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div[2]/div'
 云通Server_KeepAlive_IP输入项: 'xpath==/html/body/div[3]/div/div[2]/div/div[2]/div[1]/div/div/div[1]/div/div[1]/div[2]/div[2]/input'
+取消: 'xpath==/html/body/div[3]/div/div[2]/div/div[2]/div[2]/button[1]'
