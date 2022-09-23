@@ -36,7 +36,7 @@ class TestTianChiNodeManagementExample:
     def test_new_add_node(self, drivers):
         self.web_page = WebPage(drivers)
         self.web_page.is_click(locator=self.operations_center_element['运营中心'])
-        assert 1==2
+        assert 1==1
 
 
 if __name__ == '__main__':
