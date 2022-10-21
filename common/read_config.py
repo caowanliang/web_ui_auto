@@ -32,6 +32,9 @@ class ReadConfig(object):
     @property
     def url(self):
         return self._get(HOST, HOST)
+    @property
+    def urll(self):
+        return self._set(HOST, HOST, "111")
 
     @property
     def admin(self):
@@ -45,4 +48,5 @@ class ReadConfig(object):
 ini = ReadConfig()
 
 if __name__ == '__main__':
-    print(ini.url)
+    # pass
+    print(ini.urll)

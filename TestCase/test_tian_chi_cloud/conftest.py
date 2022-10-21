@@ -12,7 +12,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
-from common.read_config import ini
+from common.read_config import ReadConfig, ini
 from common.read_element import Element
 from page_object.login_page import LoginPage
 
